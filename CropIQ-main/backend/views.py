@@ -74,7 +74,7 @@ class users(APIView):
 
 
 # Initialize Earth Engine once
-ee.Initialize(project="seventh-acrobat-456105-g8")
+ee.Initialize(project="")
 
 
 # @api_view(['GET'])
