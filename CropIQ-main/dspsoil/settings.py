@@ -39,7 +39,7 @@ mongo_soil=mongo_db["soildata"]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['http://localhost:80']
 
 
 # Application definition
