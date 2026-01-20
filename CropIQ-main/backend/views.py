@@ -74,7 +74,7 @@ class users(APIView):
 
 
 # Initialize Earth Engine once
-ee.Initialize(project="")
+ee.Initialize(project="google cloud project id")
 
 
 # @api_view(['GET'])
