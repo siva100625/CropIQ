@@ -34,7 +34,7 @@ mongo_soil=mongo_db["soildata"]
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ozy*cjf)v_#&5e4!!jw446iw@zjrql1aro%#wz)!r27xz38u_0'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
