@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(os.path.join(BASE_DIR,".env"))
 # DEBUG = os.getenv("DEBUG", "False") == "True"
 MONGO_URI=os.getenv("MONGO_URI")
-# SECRET_KEY = os.getenv("SECRET_KEY", "Rgbegk7S2xtTONxSqKIvDxAU-cajnLj_O5i1xUyf8UZ5vGEkTquGKXc4psjFrldznac")
+
 mongo_client = MongoClient(MONGO_URI)
 mongo_db = mongo_client["new"]
 mongo_users = mongo_db["users"]
